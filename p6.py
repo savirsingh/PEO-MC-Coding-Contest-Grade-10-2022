@@ -4,7 +4,7 @@ def quadratic(a, b, c, j):
     if a>=0:
         value=10000000000
         minx=10000000000
-    point=-26
+    point=-25
     while point<25:
         q=a*point**2+b*point+c
         if a>=0:
